@@ -1,0 +1,11 @@
+Building Serverless Data Stream pipeline using Kinesis data streams and Firehose for Snowflake
+Steps:
+-----------
+Step 1:Create the Lambda Role 
+Step 2:Create the Lambda Function to read the data from API Gateway & put in Kinesis Data Stream
+Step 3: Create API Gateway & make the integration with AWS Lambda created in Step 2
+Step 4:Create the Kinesis Data Stream to consume data from AWS Lambda created in Step 2
+Step 5:Create Lambda for processing the data before s3 dump 
+Step 6:Create firehose Destination s3 bucket 
+Step 7:Create Kinesis Firehose 
+Step 8:Create Snowflake Role 
